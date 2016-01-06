@@ -1,0 +1,13 @@
+PODS:
+  - GMImagePicker (0.0.1)
+  - RSKImageCropper (1.4.1)
+
+DEPENDENCIES:
+  - GMImagePicker
+  - RSKImageCropper
+
+SPEC CHECKSUMS:
+  GMImagePicker: e9c726e514c275c914c1b3390d6bb7c3c3e87ead
+  RSKImageCropper: 98ae426eb4eb11b733ff87f8e2542a480f4fa8e6
+
+COCOAPODS: 0.39.0
