@@ -6,7 +6,6 @@
 target 'st-imagepicker' do
 
 pod 'GMImagePicker'
-pod 'RSKImageCropper'
-
+pod 'TOCropViewController', :git => 'https://github.com/Urkman/TOCropViewController', :branch => 'master'
 end
 

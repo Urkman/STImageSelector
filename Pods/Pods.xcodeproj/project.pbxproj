@@ -7,129 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2411B2B4CEA7B3964613C5431A3B76A1 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F223931E5F4209A9CE5E0E0A8EE211F /* GMGridViewCell.m */; };
-		2610129B2A63037D0C925DAA62B8939A /* CGGeometry+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D808CDD1FE324D2173D8F607B84CD4 /* CGGeometry+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D69C7124DD605CFB142A875B691B088 /* GMGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6786B30B3C00DFF7AD7E9E05736909 /* GMGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E309BBAC142B3F6AF46F828BC822B28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
-		343BBAC1F6E036394978AB56F98C30BA /* GMAlbumsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CE3664624DD85DCEE9C1EEB5590ED /* GMAlbumsViewCell.m */; };
-		391BC31654CA4E0CEB3D927239550F01 /* RSKInternalUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5C2B65B2657EFCC055AF56F6B2873D /* RSKInternalUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A7710B524262FACFB62E725F07FAC56 /* RSKImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAA454FA6CE52A7443BEB12D15A86E3 /* RSKImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AFD7B6537A34EADD239409B39092783 /* Pods-st-imagepicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361173AD408CC5A5F800744AE862925 /* Pods-st-imagepicker-dummy.m */; };
-		3C2F13CA77EB0B34305539014E1BA79F /* UIImage+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 23856674D7E43F1E513232713803CB32 /* UIImage+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D25DCF6CA426AE371E8ED4E7C721FB2 /* UIApplication+RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = FAAD7218AD0EDBEA9C939C7E5F6B3D2F /* UIApplication+RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48605B6897B7535BA81D48E620C67A88 /* CGGeometry+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DB4CE33F7A25A45A61F00F229DC6A7 /* CGGeometry+RSKImageCropper.m */; };
-		4B4CC94BEB6B610861D4051EDA84C635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		4C9CE554465EF4E5AA6710361DD43122 /* RSKImageCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0194D0F2393C53E8093F102DE14954 /* RSKImageCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BCE81F3868A237639C2D1B3E10BA52 /* GMAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D02CE88F4A48675CC9B57DADE4261C /* GMAlbumsViewController.m */; };
-		5AD263542EB47A459763437D00986B39 /* GMGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6558CEDBCCCB1F1A9C4679982016F1A /* GMGridViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E07CF7502A3A98E3A9DC6BCF3886F62 /* GMGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E676BC7323707276D3D1061CAAFC63 /* GMGridViewController.m */; };
-		77BB5DCD1105D26D8D0D8B6D9FC4BA91 /* RSKImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2571357552F32482C75B3C3EB69CC63 /* RSKImageCropper-dummy.m */; };
-		77E773A748C7B1201B1DC99B4FC068A6 /* UIApplication+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D9782692AF2B885DA78A2B353FAF1 /* UIApplication+RSKImageCropper.m */; };
-		7B005487DA36404EFB5CE689F875EC2E /* RSKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650E7A255922BDD598F1F226171529D4 /* RSKImageCropViewController.m */; };
-		7FB8C04B7B20ADBCD7712DA844D30731 /* UIImage+RSKImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A6A61D5D3B659A61A16F813BEFEA0 /* UIImage+RSKImageCropper.m */; };
-		863B4F80EEBB9BA27EC7F825ACF154F4 /* GMImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3922C750938DCCF726EE9E540CCE23 /* GMImagePicker-dummy.m */; };
-		9341D1E24C232F01A5C8A343F06A5BF4 /* GMImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 250D99F73614576D4C01FA152B6A28A5 /* GMImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6C65343958911F820C915EF833CDFEC /* RSKTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6739D13CAE45DA518B6C6D27EBEABF5E /* RSKTouchView.m */; };
-		B225F38639398BAD5A492CD94A59C3DE /* RSKImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CCDD91C3612961C9B7879B8B804850 /* RSKImageScrollView.m */; };
-		C4AB876EFA7313853BE4F09656087F07 /* GMAlbumsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9443E18FC9CD8762BA03241EA3AB850F /* GMAlbumsViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D27D76D96F223CEC9D558D295BF02CA7 /* RSKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B34E42548E6E555AC0BECAE69D733E65 /* RSKInternalUtility.m */; };
-		E3D73AA92D143DF3654584CA7818AFA4 /* RSKImageCropViewController+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C0FE8DF795928A1F73BCB421FA07C9 /* RSKImageCropViewController+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4470E4E097BAD1CF4A9E3D7B78CE2F5 /* GMAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0975C72675F2453D6566121A092137B /* GMAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED780C1F5252485666D6B44020B57305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		EDCE76395CB28552EA021693CD3ED450 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
-		F722A92D1E10C2D872602A346039DEF3 /* RSKImageCropper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC17D6DE3054EFAB3A50CAFDB2949F3 /* RSKImageCropper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB555566F7407815F8C7CA37632FE2CC /* GMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD09D56CDAA3083F7F976D93DA79811 /* GMImagePickerController.m */; };
-		FD824D137A3BBA332100A88D65C7B455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		FDFC2534A5B9E8835718A9D765899039 /* RSKTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E7852DB5520AC4621CED71C9D16E0E /* RSKTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AEF8145651A3C80050C96E4629BB22A /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2083773E84D128855B2F99EA57EDD64D /* nl.lproj */; };
+		0CA5DB845B0A56E0580693A54E5E1DDC /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DB2D46BF2E61DB96AAFC1D7557843D /* TOCropScrollView.m */; };
+		1050A975FF63D52B82DAB8F37FDCB2B6 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 084ACB840DCEA4E9360B2621BDDF9928 /* TOCropViewControllerTransitioning.m */; };
+		15CBD9DF1CEB07F3E633C3B683C0BC0F /* Pods-st-imagepicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361173AD408CC5A5F800744AE862925 /* Pods-st-imagepicker-dummy.m */; };
+		1A647D8BCB8617B38B96B9C7BD056C60 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2480CE29E3A7C4374335946773FCC137 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209A2D337E2155B855335EB7D8577667 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D126F1FB6123B5997EBF614F734A9D /* TOCropToolbar.m */; };
+		2411B2B4CEA7B3964613C5431A3B76A1 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2118FEC18FB3D7ABAB69BC0ECD98E5 /* GMGridViewCell.m */; };
+		2CA0DA19988F69683B923AAE346AAEF7 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 73260AC262F23A8F74B632998B3E19BA /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D69C7124DD605CFB142A875B691B088 /* GMGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 491E0E546839367C4AB82E09C58CFDBF /* GMGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F6CAF0E8329BE25DC951531E98C826 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45764028266C95CDF990E4402A8AF725 /* TOCropOverlayView.m */; };
+		343BBAC1F6E036394978AB56F98C30BA /* GMAlbumsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F98602DE81A69E1695B6E8A1BB378 /* GMAlbumsViewCell.m */; };
+		388AB79FF7A989E2D37DD88E203D408C /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FA72D0B2885E9A09F403CF7A9F7EED97 /* zh-Hans.lproj */; };
+		3DE0666A1FA16C0B76A43EB2507F112F /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B705939122ABDAAAD26925862F5602 /* TOCroppedImageAttributes.m */; };
+		495AD80B484FEC81B2D506EC910FBC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		52BCE81F3868A237639C2D1B3E10BA52 /* GMAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85FF32673778120F54F6A739273354A /* GMAlbumsViewController.m */; };
+		5AD263542EB47A459763437D00986B39 /* GMGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 496516AD5F8CC48297C7B0767A0B706C /* GMGridViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9F69E0CB230FF9613890EE52D8E321 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780554BAF807E33511D6F0AF911538DA /* UIImage+CropRotate.m */; };
+		5E07CF7502A3A98E3A9DC6BCF3886F62 /* GMGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC32EB254FAF7F9DAEFF229CF95DCE8 /* GMGridViewController.m */; };
+		6BE0179BC010BF4A2A669F4E7598F342 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D255341EBFEBB872759931A5A2D20C /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE1CDAE2611AE4E7AE22C6E26117BCB /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5F82F4E1DA84D1FDFE91E49599143A /* TOActivityCroppedImageProvider.m */; };
+		6D65AAF71CC6B729E2663B3EFEBC3593 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3799C034D5834218657C46D9451B1EE /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E573556DC71E1216E10DD93C6B318B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7675D6483E2CC3A480C887EEB51BD4CA /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B16469288CFCA023E88459F68DDB5652 /* Base.lproj */; };
+		7DE5BB2DE52272757C6A2E371E71CB5E /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CA61D92A8C35D51ECA81C96579813437 /* ru.lproj */; };
+		7F023E755BB7CCEE3B55813368A75FB3 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CF86700967DD7CE7EC80754C8B65A0FE /* id.lproj */; };
+		863B4F80EEBB9BA27EC7F825ACF154F4 /* GMImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DF1B8F5F5F43860E40E2E69592D575 /* GMImagePicker-dummy.m */; };
+		87C70074AE0D3D3376681AC0E3421B4D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 11FB844D6A569940D8DA130ABF714A9D /* en.lproj */; };
+		8F467054265F3F36C97DDEEF988865C6 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEB6D65B0C23AB370892E7242A3309C /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB7D6F9DC25E6623CC0CB8C4F0BB2FC /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF8758F820F20FB7B5D8B4A9007BF4C /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930E70B37DB0EF7BD86E5E622519B4D4 /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB580256A0E7EB41AA965C522EBBF78 /* TOCropViewController-dummy.m */; };
+		9341D1E24C232F01A5C8A343F06A5BF4 /* GMImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E4B451642D1851EF6A64EDFA7C85D2 /* GMImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0F2D0F0D19C7C7748EF94A4AF64B22 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DE568F1655DD06557B23F73AB894A983 /* ko.lproj */; };
+		A46BA129B89DD0C6731B16E392985C02 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66619916B74EBB8A928DF6FEF8732E0C /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F636D9A79E85A0852212CD07F3DAD3 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3D03EA1DED9A2A1090000F17B0B8EC34 /* zh-Hant.lproj */; };
+		B66CC23EF849E2F18CE322C3AA5B1C72 /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6B01FBD844769B2EC690E0C857F897 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83DD033234606CB637128196D6D9FE6 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D21B9B70016C2DE41A7B76388906FF1 /* TOCropView.m */; };
+		C4AB876EFA7313853BE4F09656087F07 /* GMAlbumsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79461114487D181FABBBFC50A1BF9700 /* GMAlbumsViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9806C897820DD3517B83CAC4380911E /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CD6F77AD852BEDF698245CA278646526 /* pl.lproj */; };
+		CA823C1CF79CA55024741E6A44A6915F /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E26FE7CA3AA130CB77E3F9BF51546FDC /* fr.lproj */; };
+		CE6122959B564FCDA85BBB323537C0D0 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A592BA23CA290D222BEFB4DE84686DC3 /* pt.lproj */; };
+		E2C6E3DD3ECF7308B7EF2A27B6E2C625 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D02B8FC8C8C45FA847C38BF8D78F468 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3DAC9F087C6C27227386458D5A7F449 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3A44D2B5CDC8218F7BF6C84CF07F489D /* ja.lproj */; };
+		E4470E4E097BAD1CF4A9E3D7B78CE2F5 /* GMAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B51A7DC4779CC649EE68820A7C6CAAC /* GMAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF79C97CCF9A6020F40D5F35158839C /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0F040B8B916924A3B6A93A42D66851 /* TOCropViewController.m */; };
+		F581B2EEBDBA21667158B7BD3DD0FDE0 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C6EDDAFF059A66F6913A34DB757FBBE2 /* de.lproj */; };
+		F775E7368412E55A67A6C7DFD63699CF /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6E3990D3B225269F4C7BD59BD73943A8 /* it.lproj */; };
+		F9FA62B067797B41E9E9DE32F24C7B5B /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D40FCD2F096F7956974C30999A2D7142 /* es.lproj */; };
+		FB555566F7407815F8C7CA37632FE2CC /* GMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438AB9B4AAC80A17B7C6ACA313EBA01C /* GMImagePickerController.m */; };
+		FD824D137A3BBA332100A88D65C7B455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		648F6D43E68D535F67F7A038BFC44C63 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E00949BB61E0CE8416CCE33F3FB42FA1;
-			remoteInfo = RSKImageCropper;
-		};
-		DBE05AEF0AA790583F8E88D17996FE69 /* PBXContainerItemProxy */ = {
+		9C8F531B8D934564B566AA7A4FE161EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2ECDB9825E66EC50BC91C5075DF151A8;
 			remoteInfo = GMImagePicker;
 		};
+		E72411E41D81832E7A43230428589BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB79841DF3F8FB201B1B68D47F108702;
+			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
+		};
+		E9785C7DE26F2E3099A0F9E811B1F854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBCA930BA99A2305CB6EE6ADBE9501C;
+			remoteInfo = TOCropViewController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03AE40C6418C09E517D6C4330B1A56AA /* Pods-st-imagepicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-st-imagepicker-frameworks.sh"; sourceTree = "<group>"; };
-		124D9782692AF2B885DA78A2B353FAF1 /* UIApplication+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+RSKImageCropper.m"; path = "RSKImageCropper/UIApplication+RSKImageCropper.m"; sourceTree = "<group>"; };
-		1AD09D56CDAA3083F7F976D93DA79811 /* GMImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMImagePickerController.m; path = GMImagePicker/GMImagePickerController.m; sourceTree = "<group>"; };
+		084ACB840DCEA4E9360B2621BDDF9928 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = TOCropViewController/Models/TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		0BD6036F681D109AE958AD47E40645CB /* libTOCropViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTOCropViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2BC0B96737A9E7B0B61BED8FAB40FF /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = GMImagePicker/en.lproj; sourceTree = "<group>"; };
+		10C976906796B86E04877C1DA8B20495 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = GMImagePicker/Base.lproj; sourceTree = "<group>"; };
+		11FB844D6A569940D8DA130ABF714A9D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TOCropViewController/en.lproj; sourceTree = "<group>"; };
+		13C011332530B38142F244C202E6A8D2 /* GMSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMSelected@2x.png"; path = "GMImagePicker/GMSelected@2x.png"; sourceTree = "<group>"; };
+		1D0F040B8B916924A3B6A93A42D66851 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = TOCropViewController/TOCropViewController.m; sourceTree = "<group>"; };
+		2083773E84D128855B2F99EA57EDD64D /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = TOCropViewController/nl.lproj; sourceTree = "<group>"; };
 		2361173AD408CC5A5F800744AE862925 /* Pods-st-imagepicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-st-imagepicker-dummy.m"; sourceTree = "<group>"; };
-		23856674D7E43F1E513232713803CB32 /* UIImage+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RSKImageCropper.h"; path = "RSKImageCropper/UIImage+RSKImageCropper.h"; sourceTree = "<group>"; };
-		250D99F73614576D4C01FA152B6A28A5 /* GMImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMImagePickerController.h; path = GMImagePicker/GMImagePickerController.h; sourceTree = "<group>"; };
-		274A6A61D5D3B659A61A16F813BEFEA0 /* UIImage+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RSKImageCropper.m"; path = "RSKImageCropper/UIImage+RSKImageCropper.m"; sourceTree = "<group>"; };
-		2B8B0477E0C6059D1B8B04818236E557 /* GMEmptyFolder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMEmptyFolder@2x.png"; path = "GMImagePicker/GMEmptyFolder@2x.png"; sourceTree = "<group>"; };
-		2DC17D6DE3054EFAB3A50CAFDB2949F3 /* RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropper.h; path = RSKImageCropper/RSKImageCropper.h; sourceTree = "<group>"; };
-		2E5C2B65B2657EFCC055AF56F6B2873D /* RSKInternalUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKInternalUtility.h; path = RSKImageCropper/RSKInternalUtility.h; sourceTree = "<group>"; };
-		369A304BC516470D9AB0527E247FCFA6 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = GMImagePicker/ca.lproj; sourceTree = "<group>"; };
-		393DEA3D1AF8BE1B00F47D919B04DDFB /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = GMImagePicker/de.lproj; sourceTree = "<group>"; };
-		3A44DDFB19D15C38B438DB8368DF8340 /* GMImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMImagePicker.xcconfig; sourceTree = "<group>"; };
-		3F223931E5F4209A9CE5E0E0A8EE211F /* GMGridViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMGridViewCell.m; path = GMImagePicker/GMGridViewCell.m; sourceTree = "<group>"; };
-		405432BF99C47083A189FB71750AC1FF /* libPods-st-imagepicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-st-imagepicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42CCDD91C3612961C9B7879B8B804850 /* RSKImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageScrollView.m; path = RSKImageCropper/RSKImageScrollView.m; sourceTree = "<group>"; };
-		456B8A7843D27FDF2DCAA2F5E7E41506 /* GMSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = GMSelected.png; path = GMImagePicker/GMSelected.png; sourceTree = "<group>"; };
-		5AAA454FA6CE52A7443BEB12D15A86E3 /* RSKImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageScrollView.h; path = RSKImageCropper/RSKImageScrollView.h; sourceTree = "<group>"; };
-		5CB49576FAEB7C3A9D3904DAC593A9BA /* RSKImageCropperStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RSKImageCropperStrings.bundle; path = RSKImageCropper/RSKImageCropperStrings.bundle; sourceTree = "<group>"; };
-		62E696810A32CE36630E87ED9B598116 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = GMImagePicker/es.lproj; sourceTree = "<group>"; };
-		650E7A255922BDD598F1F226171529D4 /* RSKImageCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKImageCropViewController.m; path = RSKImageCropper/RSKImageCropViewController.m; sourceTree = "<group>"; };
-		6739D13CAE45DA518B6C6D27EBEABF5E /* RSKTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKTouchView.m; path = RSKImageCropper/RSKTouchView.m; sourceTree = "<group>"; };
-		6B14B4E7175689689A0B4B8F5B1E8F4A /* GMEmptyFolder@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMEmptyFolder@1x.png"; path = "GMImagePicker/GMEmptyFolder@1x.png"; sourceTree = "<group>"; };
-		6EB46B56C5189B449311443574C36451 /* GMImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		2480CE29E3A7C4374335946773FCC137 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = TOCropViewController/Views/TOCropOverlayView.h; sourceTree = "<group>"; };
+		2A5F82F4E1DA84D1FDFE91E49599143A /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = TOCropViewController/Models/TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		2AEB6D65B0C23AB370892E7242A3309C /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = TOCropViewController/TOCropViewController.h; sourceTree = "<group>"; };
+		2B0DEA1E3B83FD791253A9C6E6B89AE5 /* GMVideoIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMVideoIcon@2x.png"; path = "GMImagePicker/GMVideoIcon@2x.png"; sourceTree = "<group>"; };
+		2D02B8FC8C8C45FA847C38BF8D78F468 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = TOCropViewController/Models/TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		3A44D2B5CDC8218F7BF6C84CF07F489D /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = TOCropViewController/ja.lproj; sourceTree = "<group>"; };
+		3B51A7DC4779CC649EE68820A7C6CAAC /* GMAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMAlbumsViewController.h; path = GMImagePicker/GMAlbumsViewController.h; sourceTree = "<group>"; };
+		3D03EA1DED9A2A1090000F17B0B8EC34 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "TOCropViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		438AB9B4AAC80A17B7C6ACA313EBA01C /* GMImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMImagePickerController.m; path = GMImagePicker/GMImagePickerController.m; sourceTree = "<group>"; };
+		44056EFFA8A8A8530D8A829675F36AD6 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = GMImagePicker/ca.lproj; sourceTree = "<group>"; };
+		44C0E367121706D0E5208CCC4238C425 /* GMVideoIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = GMVideoIcon.png; path = GMImagePicker/GMVideoIcon.png; sourceTree = "<group>"; };
+		45764028266C95CDF990E4402A8AF725 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = TOCropViewController/Views/TOCropOverlayView.m; sourceTree = "<group>"; };
+		45B5C7E9929F2948EDF250A404AF8F75 /* TOCropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-prefix.pch"; sourceTree = "<group>"; };
+		45E4B451642D1851EF6A64EDFA7C85D2 /* GMImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMImagePickerController.h; path = GMImagePicker/GMImagePickerController.h; sourceTree = "<group>"; };
+		491E0E546839367C4AB82E09C58CFDBF /* GMGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMGridViewController.h; path = GMImagePicker/GMGridViewController.h; sourceTree = "<group>"; };
+		496516AD5F8CC48297C7B0767A0B706C /* GMGridViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMGridViewCell.h; path = GMImagePicker/GMGridViewCell.h; sourceTree = "<group>"; };
+		4C2118FEC18FB3D7ABAB69BC0ECD98E5 /* GMGridViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMGridViewCell.m; path = GMImagePicker/GMGridViewCell.m; sourceTree = "<group>"; };
+		5BF99955B3F4713CFDC71B421AB141C3 /* GMSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = GMSelected.png; path = GMImagePicker/GMSelected.png; sourceTree = "<group>"; };
+		5D6F413AEE33FC67D3158A3F97456AE0 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = GMImagePicker/fr.lproj; sourceTree = "<group>"; };
+		64DB2D46BF2E61DB96AAFC1D7557843D /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = TOCropViewController/Views/TOCropScrollView.m; sourceTree = "<group>"; };
+		66619916B74EBB8A928DF6FEF8732E0C /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = TOCropViewController/Views/TOCropView.h; sourceTree = "<group>"; };
+		6E3990D3B225269F4C7BD59BD73943A8 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = TOCropViewController/it.lproj; sourceTree = "<group>"; };
+		6ED9DECA06F0B8D4A27F8174A7BC5F73 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = GMImagePicker/de.lproj; sourceTree = "<group>"; };
 		71A3A61F012873584A1806B1B98DDC4D /* Pods-st-imagepicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-st-imagepicker-resources.sh"; sourceTree = "<group>"; };
-		72EC8FCF2C7F72927F97095AAC2D5476 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = GMImagePicker/pt.lproj; sourceTree = "<group>"; };
-		78B8DE36915D5B62EF475F2236E3E0A1 /* GMVideoIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMVideoIcon@2x.png"; path = "GMImagePicker/GMVideoIcon@2x.png"; sourceTree = "<group>"; };
-		7D714278BD80100FD35B916E6F86FF0A /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = GMImagePicker/fr.lproj; sourceTree = "<group>"; };
-		7F0194D0F2393C53E8093F102DE14954 /* RSKImageCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKImageCropViewController.h; path = RSKImageCropper/RSKImageCropViewController.h; sourceTree = "<group>"; };
-		7F3922C750938DCCF726EE9E540CCE23 /* GMImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMImagePicker-dummy.m"; sourceTree = "<group>"; };
-		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9443E18FC9CD8762BA03241EA3AB850F /* GMAlbumsViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMAlbumsViewCell.h; path = GMImagePicker/GMAlbumsViewCell.h; sourceTree = "<group>"; };
-		98E676BC7323707276D3D1061CAAFC63 /* GMGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMGridViewController.m; path = GMImagePicker/GMGridViewController.m; sourceTree = "<group>"; };
-		99BBEB77AE8156D7F57075E345AB4450 /* libRSKImageCropper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSKImageCropper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DF7F442D19C12240D8F8EE63BDFC51D /* GMSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMSelected@2x.png"; path = "GMImagePicker/GMSelected@2x.png"; sourceTree = "<group>"; };
+		723F98602DE81A69E1695B6E8A1BB378 /* GMAlbumsViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMAlbumsViewCell.m; path = GMImagePicker/GMAlbumsViewCell.m; sourceTree = "<group>"; };
+		73260AC262F23A8F74B632998B3E19BA /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = TOCropViewController/Views/TOCropToolbar.h; sourceTree = "<group>"; };
+		73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOCropViewController.xcconfig; sourceTree = "<group>"; };
+		780554BAF807E33511D6F0AF911538DA /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "TOCropViewController/Models/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		79461114487D181FABBBFC50A1BF9700 /* GMAlbumsViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMAlbumsViewCell.h; path = GMImagePicker/GMAlbumsViewCell.h; sourceTree = "<group>"; };
+		7964ACE92E14BD22BB8DC3ED99E712A5 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = GMImagePicker/it.lproj; sourceTree = "<group>"; };
+		7AC3982D7EB7EE21DF8040531DCA1DEE /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = GMImagePicker/pt.lproj; sourceTree = "<group>"; };
+		7D21B9B70016C2DE41A7B76388906FF1 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = TOCropViewController/Views/TOCropView.m; sourceTree = "<group>"; };
+		7EC32EB254FAF7F9DAEFF229CF95DCE8 /* GMGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMGridViewController.m; path = GMImagePicker/GMGridViewController.m; sourceTree = "<group>"; };
+		85203901C78CB974BAB5D1C1DA5DE2F5 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = GMImagePicker/es.lproj; sourceTree = "<group>"; };
+		87F5352220849EF5CD44DC74B7E2EC15 /* GMImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		8BB580256A0E7EB41AA965C522EBBF78 /* TOCropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOCropViewController-dummy.m"; sourceTree = "<group>"; };
+		98D255341EBFEBB872759931A5A2D20C /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = TOCropViewController/Models/TOCroppedImageAttributes.h; sourceTree = "<group>"; };
 		A2644EFCEE5B632F512F5BFC61675CE3 /* Pods-st-imagepicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-st-imagepicker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A6C0FE8DF795928A1F73BCB421FA07C9 /* RSKImageCropViewController+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSKImageCropViewController+Protected.h"; path = "RSKImageCropper/RSKImageCropViewController+Protected.h"; sourceTree = "<group>"; };
-		B1B7FF8CE66AF6316FB28FFB716F933E /* GMVideoIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = GMVideoIcon.png; path = GMImagePicker/GMVideoIcon.png; sourceTree = "<group>"; };
-		B34E42548E6E555AC0BECAE69D733E65 /* RSKInternalUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSKInternalUtility.m; path = RSKImageCropper/RSKInternalUtility.m; sourceTree = "<group>"; };
-		B40F3ED976FF6C044A9FEE2C1DFA696A /* RSKImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKImageCropper.xcconfig; sourceTree = "<group>"; };
-		B4D02CE88F4A48675CC9B57DADE4261C /* GMAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMAlbumsViewController.m; path = GMImagePicker/GMAlbumsViewController.m; sourceTree = "<group>"; };
-		B71CE3664624DD85DCEE9C1EEB5590ED /* GMAlbumsViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMAlbumsViewCell.m; path = GMImagePicker/GMAlbumsViewCell.m; sourceTree = "<group>"; };
+		A3799C034D5834218657C46D9451B1EE /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "TOCropViewController/Models/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		A592BA23CA290D222BEFB4DE84686DC3 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = TOCropViewController/pt.lproj; sourceTree = "<group>"; };
+		A85FF32673778120F54F6A739273354A /* GMAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMAlbumsViewController.m; path = GMImagePicker/GMAlbumsViewController.m; sourceTree = "<group>"; };
+		B16469288CFCA023E88459F68DDB5652 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = TOCropViewController/Base.lproj; sourceTree = "<group>"; };
+		B8B705939122ABDAAAD26925862F5602 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = TOCropViewController/Models/TOCroppedImageAttributes.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0975C72675F2453D6566121A092137B /* GMAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMAlbumsViewController.h; path = GMImagePicker/GMAlbumsViewController.h; sourceTree = "<group>"; };
-		C3A9EC06B7593F96E2677F3D306F8C5F /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = GMImagePicker/en.lproj; sourceTree = "<group>"; };
-		D0D808CDD1FE324D2173D8F607B84CD4 /* CGGeometry+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+RSKImageCropper.h"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.h"; sourceTree = "<group>"; };
-		D2571357552F32482C75B3C3EB69CC63 /* RSKImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKImageCropper-dummy.m"; sourceTree = "<group>"; };
-		D3A7FE0F8081F28F42AE5D94DBED0BDA /* RSKImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKImageCropper-prefix.pch"; sourceTree = "<group>"; };
-		D6558CEDBCCCB1F1A9C4679982016F1A /* GMGridViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMGridViewCell.h; path = GMImagePicker/GMGridViewCell.h; sourceTree = "<group>"; };
-		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DB30E9BFF34583EB5D20B9623CCB5FEE /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = GMImagePicker/it.lproj; sourceTree = "<group>"; };
+		BF48F8A8814B77C026DBF47A73E59DF9 /* GMEmptyFolder@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMEmptyFolder@1x.png"; path = "GMImagePicker/GMEmptyFolder@1x.png"; sourceTree = "<group>"; };
+		BF4A3946C4E45F837FD3239536FBECDE /* libPods-st-imagepicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-st-imagepicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22F9D109EF7FBE87BC5555BAD3AC885 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOCropViewControllerBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DF1B8F5F5F43860E40E2E69592D575 /* GMImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMImagePicker-dummy.m"; sourceTree = "<group>"; };
+		C6EDDAFF059A66F6913A34DB757FBBE2 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = TOCropViewController/de.lproj; sourceTree = "<group>"; };
+		C96D883CB4F6AECE6D45818223BB3780 /* libGMImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGMImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA61D92A8C35D51ECA81C96579813437 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = TOCropViewController/ru.lproj; sourceTree = "<group>"; };
+		CD6F77AD852BEDF698245CA278646526 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = TOCropViewController/pl.lproj; sourceTree = "<group>"; };
+		CE11686ACEE76D8C67D1AB96298F7D9A /* GMImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMImagePicker.xcconfig; sourceTree = "<group>"; };
+		CF86700967DD7CE7EC80754C8B65A0FE /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = TOCropViewController/id.lproj; sourceTree = "<group>"; };
+		D40FCD2F096F7956974C30999A2D7142 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TOCropViewController/es.lproj; sourceTree = "<group>"; };
+		D9D126F1FB6123B5997EBF614F734A9D /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = TOCropViewController/Views/TOCropToolbar.m; sourceTree = "<group>"; };
+		DE568F1655DD06557B23F73AB894A983 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = TOCropViewController/ko.lproj; sourceTree = "<group>"; };
+		E26FE7CA3AA130CB77E3F9BF51546FDC /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = TOCropViewController/fr.lproj; sourceTree = "<group>"; };
+		E3FBFCE17A1FCE9DED6DF367611C9498 /* GMEmptyFolder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "GMEmptyFolder@2x.png"; path = "GMImagePicker/GMEmptyFolder@2x.png"; sourceTree = "<group>"; };
 		E44FE053BD8AFEFB7C72BDC94EBF21B9 /* Pods-st-imagepicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-st-imagepicker.release.xcconfig"; sourceTree = "<group>"; };
-		E5DB4CE33F7A25A45A61F00F229DC6A7 /* CGGeometry+RSKImageCropper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+RSKImageCropper.m"; path = "RSKImageCropper/CGGeometry+RSKImageCropper.m"; sourceTree = "<group>"; };
-		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE6786B30B3C00DFF7AD7E9E05736909 /* GMGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMGridViewController.h; path = GMImagePicker/GMGridViewController.h; sourceTree = "<group>"; };
-		F1E7852DB5520AC4621CED71C9D16E0E /* RSKTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSKTouchView.h; path = RSKImageCropper/RSKTouchView.h; sourceTree = "<group>"; };
-		F4DA5F8552FC4FF1F640AAD889CC0641 /* libGMImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGMImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FD4E6E6D4F20E2292373DC444F5286 /* Pods-st-imagepicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-st-imagepicker.debug.xcconfig"; sourceTree = "<group>"; };
-		FAAD7218AD0EDBEA9C939C7E5F6B3D2F /* UIApplication+RSKImageCropper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+RSKImageCropper.h"; path = "RSKImageCropper/UIApplication+RSKImageCropper.h"; sourceTree = "<group>"; };
+		FA72D0B2885E9A09F403CF7A9F7EED97 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "TOCropViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		FC6B01FBD844769B2EC690E0C857F897 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = TOCropViewController/Models/TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		FCF8758F820F20FB7B5D8B4A9007BF4C /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = TOCropViewController/Views/TOCropScrollView.h; sourceTree = "<group>"; };
 		FFA2D227EB0CE1BD77068D0CC7BEECE7 /* Pods-st-imagepicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-st-imagepicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFE15757692DF78CF3E7DF51EB84ED51 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = GMImagePicker/Base.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5963022DFD29616D094808AF0ADF0060 /* Frameworks */ = {
+		1C94538C652023F6507EC13FD82D53A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED780C1F5252485666D6B44020B57305 /* Foundation.framework in Frameworks */,
+				6E573556DC71E1216E10DD93C6B318B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,99 +178,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		804BCEA5B8A1E7DD295333843DD81529 /* Frameworks */ = {
+		7D3C95A0F4DF8066400D5DB2362793BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4CC94BEB6B610861D4051EDA84C635 /* Foundation.framework in Frameworks */,
-				EDCE76395CB28552EA021693CD3ED450 /* QuartzCore.framework in Frameworks */,
-				2E309BBAC142B3F6AF46F828BC822B28 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9206DEE9C3DEE4DFE56359919F5474D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495AD80B484FEC81B2D506EC910FBC49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		10202706242D48E0F79B290FFD89DCCB /* GMImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+				79461114487D181FABBBFC50A1BF9700 /* GMAlbumsViewCell.h */,
+				723F98602DE81A69E1695B6E8A1BB378 /* GMAlbumsViewCell.m */,
+				3B51A7DC4779CC649EE68820A7C6CAAC /* GMAlbumsViewController.h */,
+				A85FF32673778120F54F6A739273354A /* GMAlbumsViewController.m */,
+				496516AD5F8CC48297C7B0767A0B706C /* GMGridViewCell.h */,
+				4C2118FEC18FB3D7ABAB69BC0ECD98E5 /* GMGridViewCell.m */,
+				491E0E546839367C4AB82E09C58CFDBF /* GMGridViewController.h */,
+				7EC32EB254FAF7F9DAEFF229CF95DCE8 /* GMGridViewController.m */,
+				45E4B451642D1851EF6A64EDFA7C85D2 /* GMImagePickerController.h */,
+				438AB9B4AAC80A17B7C6ACA313EBA01C /* GMImagePickerController.m */,
+				FF485D200B38C34B4903EB4A632152CA /* Resources */,
+				A71BEE0A3F49EFE18E744287C1B1C58D /* Support Files */,
 			);
-			name = Frameworks;
+			path = GMImagePicker;
 			sourceTree = "<group>";
 		};
-		1E7ED0DD138D515C214EF7154D5C4C08 /* Pods */ = {
+		19BFCED604383DDBD8637BBA98F24F07 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				810E864C0C7F172C8135F88042AD3775 /* GMImagePicker */,
-				5884E847E4771841AB2CB3274B06FCD8 /* RSKImageCropper */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3D1BFB51D0668251087025AEDC3AC3FD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FFE15757692DF78CF3E7DF51EB84ED51 /* Base.lproj */,
-				369A304BC516470D9AB0527E247FCFA6 /* ca.lproj */,
-				393DEA3D1AF8BE1B00F47D919B04DDFB /* de.lproj */,
-				C3A9EC06B7593F96E2677F3D306F8C5F /* en.lproj */,
-				62E696810A32CE36630E87ED9B598116 /* es.lproj */,
-				7D714278BD80100FD35B916E6F86FF0A /* fr.lproj */,
-				6B14B4E7175689689A0B4B8F5B1E8F4A /* GMEmptyFolder@1x.png */,
-				2B8B0477E0C6059D1B8B04818236E557 /* GMEmptyFolder@2x.png */,
-				456B8A7843D27FDF2DCAA2F5E7E41506 /* GMSelected.png */,
-				9DF7F442D19C12240D8F8EE63BDFC51D /* GMSelected@2x.png */,
-				B1B7FF8CE66AF6316FB28FFB716F933E /* GMVideoIcon.png */,
-				78B8DE36915D5B62EF475F2236E3E0A1 /* GMVideoIcon@2x.png */,
-				DB30E9BFF34583EB5D20B9623CCB5FEE /* it.lproj */,
-				72EC8FCF2C7F72927F97095AAC2D5476 /* pt.lproj */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5884E847E4771841AB2CB3274B06FCD8 /* RSKImageCropper */ = {
-			isa = PBXGroup;
-			children = (
-				D0D808CDD1FE324D2173D8F607B84CD4 /* CGGeometry+RSKImageCropper.h */,
-				E5DB4CE33F7A25A45A61F00F229DC6A7 /* CGGeometry+RSKImageCropper.m */,
-				2DC17D6DE3054EFAB3A50CAFDB2949F3 /* RSKImageCropper.h */,
-				7F0194D0F2393C53E8093F102DE14954 /* RSKImageCropViewController.h */,
-				650E7A255922BDD598F1F226171529D4 /* RSKImageCropViewController.m */,
-				A6C0FE8DF795928A1F73BCB421FA07C9 /* RSKImageCropViewController+Protected.h */,
-				5AAA454FA6CE52A7443BEB12D15A86E3 /* RSKImageScrollView.h */,
-				42CCDD91C3612961C9B7879B8B804850 /* RSKImageScrollView.m */,
-				2E5C2B65B2657EFCC055AF56F6B2873D /* RSKInternalUtility.h */,
-				B34E42548E6E555AC0BECAE69D733E65 /* RSKInternalUtility.m */,
-				F1E7852DB5520AC4621CED71C9D16E0E /* RSKTouchView.h */,
-				6739D13CAE45DA518B6C6D27EBEABF5E /* RSKTouchView.m */,
-				FAAD7218AD0EDBEA9C939C7E5F6B3D2F /* UIApplication+RSKImageCropper.h */,
-				124D9782692AF2B885DA78A2B353FAF1 /* UIApplication+RSKImageCropper.m */,
-				23856674D7E43F1E513232713803CB32 /* UIImage+RSKImageCropper.h */,
-				274A6A61D5D3B659A61A16F813BEFEA0 /* UIImage+RSKImageCropper.m */,
-				FDA2C240B597DFE7657041AB169B35CF /* Resources */,
-				757D17EED6028FF686495B91EC69B366 /* Support Files */,
-			);
-			path = RSKImageCropper;
-			sourceTree = "<group>";
-		};
-		757D17EED6028FF686495B91EC69B366 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B40F3ED976FF6C044A9FEE2C1DFA696A /* RSKImageCropper.xcconfig */,
-				D2571357552F32482C75B3C3EB69CC63 /* RSKImageCropper-dummy.m */,
-				D3A7FE0F8081F28F42AE5D94DBED0BDA /* RSKImageCropper-prefix.pch */,
+				73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */,
+				8BB580256A0E7EB41AA965C522EBBF78 /* TOCropViewController-dummy.m */,
+				45B5C7E9929F2948EDF250A404AF8F75 /* TOCropViewController-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/RSKImageCropper";
+			path = "../Target Support Files/TOCropViewController";
 			sourceTree = "<group>";
 		};
-		768966DE47370B3EBD11EB2294079A5C /* Products */ = {
+		1C2FC4E4B893BE6835384D7E86F305A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4DA5F8552FC4FF1F640AAD889CC0641 /* libGMImagePicker.a */,
-				405432BF99C47083A189FB71750AC1FF /* libPods-st-imagepicker.a */,
-				99BBEB77AE8156D7F57075E345AB4450 /* libRSKImageCropper.a */,
+				C96D883CB4F6AECE6D45818223BB3780 /* libGMImagePicker.a */,
+				BF4A3946C4E45F837FD3239536FBECDE /* libPods-st-imagepicker.a */,
+				0BD6036F681D109AE958AD47E40645CB /* libTOCropViewController.a */,
+				C22F9D109EF7FBE87BC5555BAD3AC885 /* TOCropViewControllerBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,51 +241,96 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				1E7ED0DD138D515C214EF7154D5C4C08 /* Pods */,
-				768966DE47370B3EBD11EB2294079A5C /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C1707F678EB37F4AC05B1E7C4328DCCD /* Pods */,
+				1C2FC4E4B893BE6835384D7E86F305A1 /* Products */,
 				FE6BD18D52DF4402DDFDC76F8EB5E996 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		810E864C0C7F172C8135F88042AD3775 /* GMImagePicker */ = {
+		A25D0C012AFB43ADF3EC16D703E4AF0D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9443E18FC9CD8762BA03241EA3AB850F /* GMAlbumsViewCell.h */,
-				B71CE3664624DD85DCEE9C1EEB5590ED /* GMAlbumsViewCell.m */,
-				C0975C72675F2453D6566121A092137B /* GMAlbumsViewController.h */,
-				B4D02CE88F4A48675CC9B57DADE4261C /* GMAlbumsViewController.m */,
-				D6558CEDBCCCB1F1A9C4679982016F1A /* GMGridViewCell.h */,
-				3F223931E5F4209A9CE5E0E0A8EE211F /* GMGridViewCell.m */,
-				EE6786B30B3C00DFF7AD7E9E05736909 /* GMGridViewController.h */,
-				98E676BC7323707276D3D1061CAAFC63 /* GMGridViewController.m */,
-				250D99F73614576D4C01FA152B6A28A5 /* GMImagePickerController.h */,
-				1AD09D56CDAA3083F7F976D93DA79811 /* GMImagePickerController.m */,
-				3D1BFB51D0668251087025AEDC3AC3FD /* Resources */,
-				F4353FEB37F62B9CBED80EC06EC98CCA /* Support Files */,
+				B16469288CFCA023E88459F68DDB5652 /* Base.lproj */,
+				C6EDDAFF059A66F6913A34DB757FBBE2 /* de.lproj */,
+				11FB844D6A569940D8DA130ABF714A9D /* en.lproj */,
+				D40FCD2F096F7956974C30999A2D7142 /* es.lproj */,
+				E26FE7CA3AA130CB77E3F9BF51546FDC /* fr.lproj */,
+				CF86700967DD7CE7EC80754C8B65A0FE /* id.lproj */,
+				6E3990D3B225269F4C7BD59BD73943A8 /* it.lproj */,
+				3A44D2B5CDC8218F7BF6C84CF07F489D /* ja.lproj */,
+				DE568F1655DD06557B23F73AB894A983 /* ko.lproj */,
+				2083773E84D128855B2F99EA57EDD64D /* nl.lproj */,
+				CD6F77AD852BEDF698245CA278646526 /* pl.lproj */,
+				A592BA23CA290D222BEFB4DE84686DC3 /* pt.lproj */,
+				CA61D92A8C35D51ECA81C96579813437 /* ru.lproj */,
+				FA72D0B2885E9A09F403CF7A9F7EED97 /* zh-Hans.lproj */,
+				3D03EA1DED9A2A1090000F17B0B8EC34 /* zh-Hant.lproj */,
 			);
-			path = GMImagePicker;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
+		A71BEE0A3F49EFE18E744287C1B1C58D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
-				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
-				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+				CE11686ACEE76D8C67D1AB96298F7D9A /* GMImagePicker.xcconfig */,
+				C4DF1B8F5F5F43860E40E2E69592D575 /* GMImagePicker-dummy.m */,
+				87F5352220849EF5CD44DC74B7E2EC15 /* GMImagePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GMImagePicker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F4353FEB37F62B9CBED80EC06EC98CCA /* Support Files */ = {
+		C1707F678EB37F4AC05B1E7C4328DCCD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A44DDFB19D15C38B438DB8368DF8340 /* GMImagePicker.xcconfig */,
-				7F3922C750938DCCF726EE9E540CCE23 /* GMImagePicker-dummy.m */,
-				6EB46B56C5189B449311443574C36451 /* GMImagePicker-prefix.pch */,
+				10202706242D48E0F79B290FFD89DCCB /* GMImagePicker */,
+				C4A9BAC5752979FD0CB45D234285A400 /* TOCropViewController */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GMImagePicker";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4A9BAC5752979FD0CB45D234285A400 /* TOCropViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B01FBD844769B2EC690E0C857F897 /* TOActivityCroppedImageProvider.h */,
+				2A5F82F4E1DA84D1FDFE91E49599143A /* TOActivityCroppedImageProvider.m */,
+				2480CE29E3A7C4374335946773FCC137 /* TOCropOverlayView.h */,
+				45764028266C95CDF990E4402A8AF725 /* TOCropOverlayView.m */,
+				98D255341EBFEBB872759931A5A2D20C /* TOCroppedImageAttributes.h */,
+				B8B705939122ABDAAAD26925862F5602 /* TOCroppedImageAttributes.m */,
+				FCF8758F820F20FB7B5D8B4A9007BF4C /* TOCropScrollView.h */,
+				64DB2D46BF2E61DB96AAFC1D7557843D /* TOCropScrollView.m */,
+				73260AC262F23A8F74B632998B3E19BA /* TOCropToolbar.h */,
+				D9D126F1FB6123B5997EBF614F734A9D /* TOCropToolbar.m */,
+				66619916B74EBB8A928DF6FEF8732E0C /* TOCropView.h */,
+				7D21B9B70016C2DE41A7B76388906FF1 /* TOCropView.m */,
+				2AEB6D65B0C23AB370892E7242A3309C /* TOCropViewController.h */,
+				1D0F040B8B916924A3B6A93A42D66851 /* TOCropViewController.m */,
+				2D02B8FC8C8C45FA847C38BF8D78F468 /* TOCropViewControllerTransitioning.h */,
+				084ACB840DCEA4E9360B2621BDDF9928 /* TOCropViewControllerTransitioning.m */,
+				A3799C034D5834218657C46D9451B1EE /* UIImage+CropRotate.h */,
+				780554BAF807E33511D6F0AF911538DA /* UIImage+CropRotate.m */,
+				A25D0C012AFB43ADF3EC16D703E4AF0D /* Resources */,
+				19BFCED604383DDBD8637BBA98F24F07 /* Support Files */,
+			);
+			path = TOCropViewController;
 			sourceTree = "<group>";
 		};
 		F4F63DD20918C59937C9DFFBE8AA8F4C /* Pods-st-imagepicker */ = {
@@ -304,20 +348,33 @@
 			path = "Target Support Files/Pods-st-imagepicker";
 			sourceTree = "<group>";
 		};
-		FDA2C240B597DFE7657041AB169B35CF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5CB49576FAEB7C3A9D3904DAC593A9BA /* RSKImageCropperStrings.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		FE6BD18D52DF4402DDFDC76F8EB5E996 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				F4F63DD20918C59937C9DFFBE8AA8F4C /* Pods-st-imagepicker */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF485D200B38C34B4903EB4A632152CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10C976906796B86E04877C1DA8B20495 /* Base.lproj */,
+				44056EFFA8A8A8530D8A829675F36AD6 /* ca.lproj */,
+				6ED9DECA06F0B8D4A27F8174A7BC5F73 /* de.lproj */,
+				0E2BC0B96737A9E7B0B61BED8FAB40FF /* en.lproj */,
+				85203901C78CB974BAB5D1C1DA5DE2F5 /* es.lproj */,
+				5D6F413AEE33FC67D3158A3F97456AE0 /* fr.lproj */,
+				BF48F8A8814B77C026DBF47A73E59DF9 /* GMEmptyFolder@1x.png */,
+				E3FBFCE17A1FCE9DED6DF367611C9498 /* GMEmptyFolder@2x.png */,
+				5BF99955B3F4713CFDC71B421AB141C3 /* GMSelected.png */,
+				13C011332530B38142F244C202E6A8D2 /* GMSelected@2x.png */,
+				44C0E367121706D0E5208CCC4238C425 /* GMVideoIcon.png */,
+				2B0DEA1E3B83FD791253A9C6E6B89AE5 /* GMVideoIcon@2x.png */,
+				7964ACE92E14BD22BB8DC3ED99E712A5 /* it.lproj */,
+				7AC3982D7EB7EE21DF8040531DCA1DEE /* pt.lproj */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,25 +392,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC6B942FCFF185F44D936197E4D6B75 /* Headers */ = {
+		DA8D39AFD31F780FE9867BCE62DBCCFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2610129B2A63037D0C925DAA62B8939A /* CGGeometry+RSKImageCropper.h in Headers */,
-				F722A92D1E10C2D872602A346039DEF3 /* RSKImageCropper.h in Headers */,
-				E3D73AA92D143DF3654584CA7818AFA4 /* RSKImageCropViewController+Protected.h in Headers */,
-				4C9CE554465EF4E5AA6710361DD43122 /* RSKImageCropViewController.h in Headers */,
-				3A7710B524262FACFB62E725F07FAC56 /* RSKImageScrollView.h in Headers */,
-				391BC31654CA4E0CEB3D927239550F01 /* RSKInternalUtility.h in Headers */,
-				FDFC2534A5B9E8835718A9D765899039 /* RSKTouchView.h in Headers */,
-				3D25DCF6CA426AE371E8ED4E7C721FB2 /* UIApplication+RSKImageCropper.h in Headers */,
-				3C2F13CA77EB0B34305539014E1BA79F /* UIImage+RSKImageCropper.h in Headers */,
+				B66CC23EF849E2F18CE322C3AA5B1C72 /* TOActivityCroppedImageProvider.h in Headers */,
+				1A647D8BCB8617B38B96B9C7BD056C60 /* TOCropOverlayView.h in Headers */,
+				6BE0179BC010BF4A2A669F4E7598F342 /* TOCroppedImageAttributes.h in Headers */,
+				8FB7D6F9DC25E6623CC0CB8C4F0BB2FC /* TOCropScrollView.h in Headers */,
+				2CA0DA19988F69683B923AAE346AAEF7 /* TOCropToolbar.h in Headers */,
+				A46BA129B89DD0C6731B16E392985C02 /* TOCropView.h in Headers */,
+				8F467054265F3F36C97DDEEF988865C6 /* TOCropViewController.h in Headers */,
+				E2C6E3DD3ECF7308B7EF2A27B6E2C625 /* TOCropViewControllerTransitioning.h in Headers */,
+				6D65AAF71CC6B729E2663B3EFEBC3593 /* UIImage+CropRotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		06478AD400075392BC2FDE5B3DF64CD9 /* Pods-st-imagepicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D94517114C617EBACDAC16E1F62A23 /* Build configuration list for PBXNativeTarget "Pods-st-imagepicker" */;
+			buildPhases = (
+				5267B2CE9B862A205FA980D1DEC619D0 /* Sources */,
+				C9206DEE9C3DEE4DFE56359919F5474D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0869B07A2A869677BC2BC662C5BFD7 /* PBXTargetDependency */,
+				AA07CA1165851DEAE321AE1024A70334 /* PBXTargetDependency */,
+			);
+			name = "Pods-st-imagepicker";
+			productName = "Pods-st-imagepicker";
+			productReference = BF4A3946C4E45F837FD3239536FBECDE /* libPods-st-imagepicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2ECDB9825E66EC50BC91C5075DF151A8 /* GMImagePicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CE1862C8B0843A15C72DB95DAC71EC8 /* Build configuration list for PBXNativeTarget "GMImagePicker" */;
@@ -368,43 +443,43 @@
 			);
 			name = GMImagePicker;
 			productName = GMImagePicker;
-			productReference = F4DA5F8552FC4FF1F640AAD889CC0641 /* libGMImagePicker.a */;
+			productReference = C96D883CB4F6AECE6D45818223BB3780 /* libGMImagePicker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		69231410195ED181C5CE46E5F54E06FC /* Pods-st-imagepicker */ = {
+		6DBCA930BA99A2305CB6EE6ADBE9501C /* TOCropViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A013C6DFE044BF7D4A35A3ABA8B096B4 /* Build configuration list for PBXNativeTarget "Pods-st-imagepicker" */;
+			buildConfigurationList = 51616354C8265230FBE91EDA664F5C7A /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
 			buildPhases = (
-				E8792A9FAD0B90444B60B82417F9BC31 /* Sources */,
-				5963022DFD29616D094808AF0ADF0060 /* Frameworks */,
+				FC13276BD40AE31EF96D19C2A9A38269 /* Sources */,
+				1C94538C652023F6507EC13FD82D53A2 /* Frameworks */,
+				DA8D39AFD31F780FE9867BCE62DBCCFC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E09D9223F1C740B53CC8B8E6AB78334 /* PBXTargetDependency */,
-				7D50562C9BCC9960F8680109DBC43CA9 /* PBXTargetDependency */,
+				E878A51A52C6487C89BB00F69CA28FF5 /* PBXTargetDependency */,
 			);
-			name = "Pods-st-imagepicker";
-			productName = "Pods-st-imagepicker";
-			productReference = 405432BF99C47083A189FB71750AC1FF /* libPods-st-imagepicker.a */;
+			name = TOCropViewController;
+			productName = TOCropViewController;
+			productReference = 0BD6036F681D109AE958AD47E40645CB /* libTOCropViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E00949BB61E0CE8416CCE33F3FB42FA1 /* RSKImageCropper */ = {
+		FB79841DF3F8FB201B1B68D47F108702 /* TOCropViewController-TOCropViewControllerBundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76FBA1DBACD8543D5B8598ECA8DCE1F4 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */;
+			buildConfigurationList = 247C810534493403413BD597AA9F69D0 /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
 			buildPhases = (
-				C0A47E6C0BAB3F430EA8095E85ECCC29 /* Sources */,
-				804BCEA5B8A1E7DD295333843DD81529 /* Frameworks */,
-				5CC6B942FCFF185F44D936197E4D6B75 /* Headers */,
+				A61A3DD2173DAD9CFA730A685AE065C9 /* Sources */,
+				7D3C95A0F4DF8066400D5DB2362793BB /* Frameworks */,
+				72401F0DA780698C5514C087ECC13C39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RSKImageCropper;
-			productName = RSKImageCropper;
-			productReference = 99BBEB77AE8156D7F57075E345AB4450 /* libRSKImageCropper.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			productName = "TOCropViewController-TOCropViewControllerBundle";
+			productReference = C22F9D109EF7FBE87BC5555BAD3AC885 /* TOCropViewControllerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -423,18 +498,52 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 768966DE47370B3EBD11EB2294079A5C /* Products */;
+			productRefGroup = 1C2FC4E4B893BE6835384D7E86F305A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2ECDB9825E66EC50BC91C5075DF151A8 /* GMImagePicker */,
-				69231410195ED181C5CE46E5F54E06FC /* Pods-st-imagepicker */,
-				E00949BB61E0CE8416CCE33F3FB42FA1 /* RSKImageCropper */,
+				06478AD400075392BC2FDE5B3DF64CD9 /* Pods-st-imagepicker */,
+				6DBCA930BA99A2305CB6EE6ADBE9501C /* TOCropViewController */,
+				FB79841DF3F8FB201B1B68D47F108702 /* TOCropViewController-TOCropViewControllerBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		72401F0DA780698C5514C087ECC13C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7675D6483E2CC3A480C887EEB51BD4CA /* Base.lproj in Resources */,
+				F581B2EEBDBA21667158B7BD3DD0FDE0 /* de.lproj in Resources */,
+				87C70074AE0D3D3376681AC0E3421B4D /* en.lproj in Resources */,
+				F9FA62B067797B41E9E9DE32F24C7B5B /* es.lproj in Resources */,
+				CA823C1CF79CA55024741E6A44A6915F /* fr.lproj in Resources */,
+				7F023E755BB7CCEE3B55813368A75FB3 /* id.lproj in Resources */,
+				F775E7368412E55A67A6C7DFD63699CF /* it.lproj in Resources */,
+				E3DAC9F087C6C27227386458D5A7F449 /* ja.lproj in Resources */,
+				9E0F2D0F0D19C7C7748EF94A4AF64B22 /* ko.lproj in Resources */,
+				0AEF8145651A3C80050C96E4629BB22A /* nl.lproj in Resources */,
+				C9806C897820DD3517B83CAC4380911E /* pl.lproj in Resources */,
+				CE6122959B564FCDA85BBB323537C0D0 /* pt.lproj in Resources */,
+				7DE5BB2DE52272757C6A2E371E71CB5E /* ru.lproj in Resources */,
+				388AB79FF7A989E2D37DD88E203D408C /* zh-Hans.lproj in Resources */,
+				A6F636D9A79E85A0852212CD07F3DAD3 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5267B2CE9B862A205FA980D1DEC619D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CBD9DF1CEB07F3E633C3B683C0BC0F /* Pods-st-imagepicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F1C9A789E16C933476007A6F6ECF748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,72 +557,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0A47E6C0BAB3F430EA8095E85ECCC29 /* Sources */ = {
+		A61A3DD2173DAD9CFA730A685AE065C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48605B6897B7535BA81D48E620C67A88 /* CGGeometry+RSKImageCropper.m in Sources */,
-				77BB5DCD1105D26D8D0D8B6D9FC4BA91 /* RSKImageCropper-dummy.m in Sources */,
-				7B005487DA36404EFB5CE689F875EC2E /* RSKImageCropViewController.m in Sources */,
-				B225F38639398BAD5A492CD94A59C3DE /* RSKImageScrollView.m in Sources */,
-				D27D76D96F223CEC9D558D295BF02CA7 /* RSKInternalUtility.m in Sources */,
-				A6C65343958911F820C915EF833CDFEC /* RSKTouchView.m in Sources */,
-				77E773A748C7B1201B1DC99B4FC068A6 /* UIApplication+RSKImageCropper.m in Sources */,
-				7FB8C04B7B20ADBCD7712DA844D30731 /* UIImage+RSKImageCropper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8792A9FAD0B90444B60B82417F9BC31 /* Sources */ = {
+		FC13276BD40AE31EF96D19C2A9A38269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFD7B6537A34EADD239409B39092783 /* Pods-st-imagepicker-dummy.m in Sources */,
+				6BE1CDAE2611AE4E7AE22C6E26117BCB /* TOActivityCroppedImageProvider.m in Sources */,
+				32F6CAF0E8329BE25DC951531E98C826 /* TOCropOverlayView.m in Sources */,
+				3DE0666A1FA16C0B76A43EB2507F112F /* TOCroppedImageAttributes.m in Sources */,
+				0CA5DB845B0A56E0580693A54E5E1DDC /* TOCropScrollView.m in Sources */,
+				209A2D337E2155B855335EB7D8577667 /* TOCropToolbar.m in Sources */,
+				B83DD033234606CB637128196D6D9FE6 /* TOCropView.m in Sources */,
+				930E70B37DB0EF7BD86E5E622519B4D4 /* TOCropViewController-dummy.m in Sources */,
+				EAF79C97CCF9A6020F40D5F35158839C /* TOCropViewController.m in Sources */,
+				1050A975FF63D52B82DAB8F37FDCB2B6 /* TOCropViewControllerTransitioning.m in Sources */,
+				5C9F69E0CB230FF9613890EE52D8E321 /* UIImage+CropRotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E09D9223F1C740B53CC8B8E6AB78334 /* PBXTargetDependency */ = {
+		AA07CA1165851DEAE321AE1024A70334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = 6DBCA930BA99A2305CB6EE6ADBE9501C /* TOCropViewController */;
+			targetProxy = E9785C7DE26F2E3099A0F9E811B1F854 /* PBXContainerItemProxy */;
+		};
+		E878A51A52C6487C89BB00F69CA28FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			target = FB79841DF3F8FB201B1B68D47F108702 /* TOCropViewController-TOCropViewControllerBundle */;
+			targetProxy = E72411E41D81832E7A43230428589BDD /* PBXContainerItemProxy */;
+		};
+		FA0869B07A2A869677BC2BC662C5BFD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GMImagePicker;
 			target = 2ECDB9825E66EC50BC91C5075DF151A8 /* GMImagePicker */;
-			targetProxy = DBE05AEF0AA790583F8E88D17996FE69 /* PBXContainerItemProxy */;
-		};
-		7D50562C9BCC9960F8680109DBC43CA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RSKImageCropper;
-			target = E00949BB61E0CE8416CCE33F3FB42FA1 /* RSKImageCropper */;
-			targetProxy = 648F6D43E68D535F67F7A038BFC44C63 /* PBXContainerItemProxy */;
+			targetProxy = 9C8F531B8D934564B566AA7A4FE161EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		219B3979CA21EA92D5DDBA5B2040C2E5 /* Debug */ = {
+		29C2A6BA282F64C5833DD92885E3C69B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5FD4E6E6D4F20E2292373DC444F5286 /* Pods-st-imagepicker.debug.xcconfig */;
+			baseConfigurationReference = 73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8614891E4C871115761CCC3B9B314E87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40F3ED976FF6C044A9FEE2C1DFA696A /* RSKImageCropper.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -522,7 +621,31 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Release;
+		};
+		3B56D27E5829F3B33619D26CAB2592F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Debug;
+		};
+		517FDFC4462A744B502E089B23FAA5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -563,7 +686,25 @@
 			};
 			name = Debug;
 		};
-		906D9FD6966C887EDC1AB0B5B09C2EC9 /* Release */ = {
+		925343728BE3B5322FE9F17A20D8A1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73393658422FF0B8D48B682FCBAE5AB3 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3FD8E1DB02E8C2435127EF97271E7A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E44FE053BD8AFEFB7C72BDC94EBF21B9 /* Pods-st-imagepicker.release.xcconfig */;
 			buildSettings = {
@@ -582,7 +723,7 @@
 		};
 		BBD87FB1CEAB696EAAA2BD58ED64C312 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A44DDFB19D15C38B438DB8368DF8340 /* GMImagePicker.xcconfig */;
+			baseConfigurationReference = CE11686ACEE76D8C67D1AB96298F7D9A /* GMImagePicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GMImagePicker/GMImagePicker-prefix.pch";
@@ -632,27 +773,26 @@
 			};
 			name = Release;
 		};
-		DC53F0DB03D30C3A42F9C9E6F47489C6 /* Release */ = {
+		CFF96943D6A3570D1A3538DDE08923E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40F3ED976FF6C044A9FEE2C1DFA696A /* RSKImageCropper.xcconfig */;
+			baseConfigurationReference = F5FD4E6E6D4F20E2292373DC444F5286 /* Pods-st-imagepicker.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSKImageCropper/RSKImageCropper-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		FC44081C94D92745FCB955174759C5DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A44DDFB19D15C38B438DB8368DF8340 /* GMImagePicker.xcconfig */;
+			baseConfigurationReference = CE11686ACEE76D8C67D1AB96298F7D9A /* GMImagePicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GMImagePicker/GMImagePicker-prefix.pch";
@@ -671,6 +811,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		247C810534493403413BD597AA9F69D0 /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B56D27E5829F3B33619D26CAB2592F4 /* Debug */,
+				517FDFC4462A744B502E089B23FAA5C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -680,11 +829,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76FBA1DBACD8543D5B8598ECA8DCE1F4 /* Build configuration list for PBXNativeTarget "RSKImageCropper" */ = {
+		51616354C8265230FBE91EDA664F5C7A /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8614891E4C871115761CCC3B9B314E87 /* Debug */,
-				DC53F0DB03D30C3A42F9C9E6F47489C6 /* Release */,
+				925343728BE3B5322FE9F17A20D8A1A3 /* Debug */,
+				29C2A6BA282F64C5833DD92885E3C69B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -698,11 +847,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A013C6DFE044BF7D4A35A3ABA8B096B4 /* Build configuration list for PBXNativeTarget "Pods-st-imagepicker" */ = {
+		F7D94517114C617EBACDAC16E1F62A23 /* Build configuration list for PBXNativeTarget "Pods-st-imagepicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				219B3979CA21EA92D5DDBA5B2040C2E5 /* Debug */,
-				906D9FD6966C887EDC1AB0B5B09C2EC9 /* Release */,
+				CFF96943D6A3570D1A3538DDE08923E7 /* Debug */,
+				A3FD8E1DB02E8C2435127EF97271E7A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
