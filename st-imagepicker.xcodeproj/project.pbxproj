@@ -18,15 +18,15 @@
 
 /* Begin PBXFileReference section */
 		0279119F1C2943E000D11309 /* st-imagepicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "st-imagepicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		027911A31C2943E000D11309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		027911A51C2943E000D11309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		027911A61C2943E000D11309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		027911A81C2943E000D11309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		027911A91C2943E000D11309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		027911A31C2943E000D11309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = "<group>"; };
+		027911A51C2943E000D11309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = "<group>"; };
+		027911A61C2943E000D11309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = "<group>"; };
+		027911A81C2943E000D11309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Example/ViewController.h; sourceTree = "<group>"; };
+		027911A91C2943E000D11309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Example/ViewController.m; sourceTree = "<group>"; };
 		027911AC1C2943E000D11309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		027911AE1C2943E000D11309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		027911AE1C2943E000D11309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
 		027911B11C2943E000D11309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		027911B31C2943E000D11309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027911B31C2943E000D11309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		531AE7453483AF896632CB49 /* libPods-st-imagepicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-st-imagepicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FEFBF3012014D696EC69F6 /* Pods-st-imagepicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-st-imagepicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-st-imagepicker/Pods-st-imagepicker.release.xcconfig"; sourceTree = "<group>"; };
 		F98900C6E380B14C6E47CCC0 /* Pods-st-imagepicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-st-imagepicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-st-imagepicker/Pods-st-imagepicker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +47,8 @@
 		027911961C2943E000D11309 = {
 			isa = PBXGroup;
 			children = (
-				027911A11C2943E000D11309 /* st-imagepicker */,
+				02B1C6021C3D5411004378F0 /* Classes */,
+				02B1C6011C3D5405004378F0 /* Example */,
 				027911A01C2943E000D11309 /* Products */,
 				E177584D69D4232322EB03A8 /* Pods */,
 				81ECAAE84D6570F39C9D28AE /* Frameworks */,
@@ -62,28 +63,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		027911A11C2943E000D11309 /* st-imagepicker */ = {
+		02B1C6011C3D5405004378F0 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				027911AB1C2943E000D11309 /* Main.storyboard */,
+				027911AE1C2943E000D11309 /* Assets.xcassets */,
+				027911B01C2943E000D11309 /* LaunchScreen.storyboard */,
 				027911A51C2943E000D11309 /* AppDelegate.h */,
 				027911A61C2943E000D11309 /* AppDelegate.m */,
 				027911A81C2943E000D11309 /* ViewController.h */,
 				027911A91C2943E000D11309 /* ViewController.m */,
-				027911AB1C2943E000D11309 /* Main.storyboard */,
-				027911AE1C2943E000D11309 /* Assets.xcassets */,
-				027911B01C2943E000D11309 /* LaunchScreen.storyboard */,
 				027911B31C2943E000D11309 /* Info.plist */,
-				027911A21C2943E000D11309 /* Supporting Files */,
-			);
-			path = "st-imagepicker";
-			sourceTree = "<group>";
-		};
-		027911A21C2943E000D11309 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				027911A31C2943E000D11309 /* main.m */,
 			);
-			name = "Supporting Files";
+			name = Example;
+			sourceTree = "<group>";
+		};
+		02B1C6021C3D5411004378F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		81ECAAE84D6570F39C9D28AE /* Frameworks */ = {
@@ -239,6 +239,7 @@
 				027911AC1C2943E000D11309 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		027911B01C2943E000D11309 /* LaunchScreen.storyboard */ = {
@@ -247,6 +248,7 @@
 				027911B11C2943E000D11309 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,7 +339,7 @@
 			baseConfigurationReference = F98900C6E380B14C6E47CCC0 /* Pods-st-imagepicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "st-imagepicker/Info.plist";
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.stefansturm.st-imagepicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,7 +351,7 @@
 			baseConfigurationReference = C7FEFBF3012014D696EC69F6 /* Pods-st-imagepicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "st-imagepicker/Info.plist";
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.stefansturm.st-imagepicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
